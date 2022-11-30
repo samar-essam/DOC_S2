@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="w-75 mx-auto my-4">
+        <form action="" id="addUser">
+            <div class="mb-3">
+                <label for="productName">Name :</label>
+                <input class="form-control my-2" name="Name" type="text" id="productName">
+                
+            </div>
+    
+            <div class="mb-3">
+                <label for="productPrice">Age :</label>
+                <input  class="form-control my-2" name="Age" type="number" id="productPrice">
+                
+            </div>
+            
+    
+            <div class="mb-3">
+                <label for="productCategory">Status :</label>
+                <br>
+                <input type="radio" id="css" name="Status" value="active">
+                <label for="html">active</label><br>
+                <input type="radio" id="css" name="Status" value="inactive">
+                <label for="css">inactive</label><br>
+                
+    
+            </div>
+    
+            
+            <button  type="submit" class=" btn btn-primary">add user</button>
+        </form>
+
+       
+    </div>
+
+    
+    <div class="w-75 wy-5 m-auto ">
+        <table class="table">
+            <thead>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Status</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tablebody">
+                
+            </tbody>
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
